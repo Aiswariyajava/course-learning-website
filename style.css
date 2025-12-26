@@ -1,0 +1,324 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    font-family:"Playfair Display", serif;
+}
+
+.navigation {
+    display:flex;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(232, 229, 229, 0.3) 0px 20px 40px -30px;
+}
+h1{
+    padding:20px;
+}
+.nav{
+    display:flex;
+
+}
+P{
+    padding:20px;
+    margin-top:10px;
+
+}
+
+
+.navigation .nav .nav-items a{
+    text-decoration: none;
+    color:black;
+}
+.nav-items{
+    margin-top:60px;
+}
+.navigation h1{
+    padding:20px;
+    margin-top:20px;
+}
+ .home h1{
+    padding:40px;
+    margin-top:40px;
+    font-size: 80px;
+}
+.heading {
+    display:flex;
+}
+.para{
+    display:flex;
+    align-items:center;
+}
+.home{
+    background-color:rgb(194, 191, 191);
+}
+img{
+    padding:20px;
+}
+.img1{
+    display:flex;
+}
+img{
+    margin-left:20px;
+    margin-bottom:20px;
+}
+.home .img1 img{
+    border-color:black;
+    border-width:2px;
+    border-style:solid;
+}
+.navigation .nav .nav-items a:hover{
+    color:rgb(13, 172, 55);
+}
+.img1 img:hover  {
+    background-color:rgb(122, 106, 137);
+}
+.java {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.courses {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    
+}
+.courses h1{
+    padding:20px;
+}
+.text1 h4{
+    margin-top:10px;
+    margin-left:10px;
+    color:rgb(85, 83, 83);
+}
+.text1 h5{
+    margin-top:5px;
+    margin-left:10px;
+    color:rgb(85, 83, 83);
+}
+.java{
+    border-color: black;
+    border-width:1px;
+    border-style:solid;
+    width:fit-content;
+    margin:50px;
+    margin-left:550px;
+    background-color:azure;
+    border-radius:20px;
+
+    
+}
+.text2 h4{
+    margin-top:10px;
+    margin-left:10px;
+    color:rgb(85, 83, 83);
+}
+.text2 h5{
+    margin-top:5px;
+    margin-left:10px;
+    color:rgb(85, 83, 83);
+}
+.python{
+    display:flex;
+    border-color: black;
+    border-width:1px;
+    border-style:solid;
+    width:fit-content;
+    margin:50px;
+    padding-top:20px;
+    margin-left:550px;
+    background-color:azure;
+    border-radius:20px;
+}
+.text3 h4{
+    margin-top:10px;
+    margin-left:10px;
+    color:rgb(85, 83, 83);
+}
+.text3 h5{
+    margin-top:5px;
+    margin-left:10px;
+    color:rgb(85, 83, 83);
+}
+.html{
+    display:flex;
+    border-color: black;
+    border-width:1px;
+    border-style:solid;
+    width:fit-content;
+    margin:50px;
+    padding-top:20px;
+    margin-left:550px;
+    background-color:azure;
+    border-radius:20px;
+}
+.text4 h4{
+    margin-top:10px;
+    margin-left:10px;
+    color:rgb(85, 83, 83);
+}
+.text4 h5{
+    margin-top:5px;
+    margin-left:10px;
+    color:rgb(85, 83, 83);
+}
+.css{
+    display:flex;
+    border-color: black;
+    border-width:1px;
+    border-style:solid;
+    width:fit-content;
+    margin:50px;
+    padding-top:20px;
+    margin-bottom:10px;
+    margin-left:550px;
+    background-color:azure;
+    border-radius:20px;
+    
+    
+}
+.course .java:hover{
+    background-color: rgb(185, 185, 217);
+}
+.course .python:hover{
+    background-color: rgb(185, 185, 217);
+}
+.course .html:hover{
+    background-color: rgb(185, 185, 217);
+}
+.course .css:hover{
+    background-color: rgb(185, 185, 217);
+}
+.course{
+    background-color:rgb(46, 46, 81);
+}
+.course .courses h1{
+    font-size: 50px;
+    color:azure;
+
+}
+.progress{
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding:20px;
+}
+.g1{
+
+    margin-bottom:20px;
+}
+.g2{
+    margin-bottom:20px;
+}
+.days{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.days h3{
+    padding:20px;
+    margin-left:20px;
+    border-color: black;
+    border-style:solid;
+    border-width: 2px;
+}
+.progress .week h1{
+    margin-top:30px;
+    
+}
+.progress {
+    border-color: black;
+    border-style:solid;
+    border-width: 2px;
+    width:fit-content;
+    padding:20px;
+    margin:20px;
+    margin-left:400px;
+    background-color:bisque;
+}
+.progress .days h3:hover{
+    border-color: blueviolet;
+    color:blueviolet;
+}
+.container{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:rgb(242, 246, 246);
+    flex-direction:column;
+}
+.container .progress-container{
+    margin-bottom:25px;
+}
+.container .progress-container h4{
+    margin:15px;
+    letter-spacing:5px;
+}
+.container .progress-container .progress-bar{
+    position:relative;
+    width:500px;
+    height:30px;
+    border-radius:10px;
+    border-color:black;
+    border-style:solid;
+
+}
+.container .progress-container .progress-bar span{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    color:black;
+    font-weight:800;
+    font-size:18px;
+    line-height:1.7;
+    text-align: center;
+    border-radius:30px;
+    background:blueviolet;
+    transition:width .5s linear;
+
+
+}
+.container{
+    text-align:center;
+}
+.container h2{
+    margin-bottom:20px;
+}
+.search{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    background-color: rgb(106, 103, 103);
+    width:100%
+}
+.search input{
+    width:60%;
+    height:45px
+}
+.vedio .v1 h1{
+    font-size:50px;
+}
+.vedio .v1{
+    padding:60px;
+    
+}
+.vedio .v1{
+    margin-left:350px;
+}
+.vedio .v1 h5{
+    margin-left:20px;
+}
+.vedio{
+    background-color: beige;
+}
+
+
+
+
